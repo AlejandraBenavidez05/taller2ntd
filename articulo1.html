@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicaciones Móviles</title>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Estilos CSS para la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
     <!-- Encabezado -->
@@ -38,12 +56,30 @@
             <h3>Publicado en:</h3>
             <p>Science Direct.</p>
 
-            <h3>Ideas principales:</h3>
-            <ul>
-                <li>Se analizaron diferentes aplicaciones móviles que corresponden a cinco comunidades autónomas.</li>
-                <li>Se mencionan comunidades que están siendo representadas en la revisión TIC.</li>
-                <li>El objetivo principal del estudio es identificar las tecnologías de la información.</li>
-            </ul>
+            <!-- Tabla de preguntas y respuestas -->
+            <h3>Preguntas y Respuestas:</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Preguntas IA</th>
+                        <th>Respuesta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>¿Cuáles son las aplicaciones móviles analizadas en el estudio?</td>
+                        <td>Se analizaron diferentes aplicaciones móviles que corresponden a cinco comunidades autónomas y una del Ministerio de Sanidad, las cuales utilizan preguntas en común para un diagnóstico temprano por medio de los síntomas de fiebre, tos y disnea.</td>
+                    </tr>
+                    <tr>
+                        <td>¿Qué comunidades autónomas están representadas en la revisión de TIC?</td>
+                        <td>Se mencionan comunidades que están siendo representadas en la revisión TIC, comunidades diversas que incluyen Cataluña, País Vasco, Castilla, entre otras más.</td>
+                    </tr>
+                    <tr>
+                        <td>¿Cuál es el objetivo principal de este estudio sobre la COVID-19?</td>
+                        <td>El objetivo principal del estudio es identificar las tecnologías de la información y comunicación (TIC) disponibles en España para la evaluación del COVID-19, examinando las características de las aplicaciones móviles y sitios web de las distintas comunidades autónomas.</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
@@ -52,5 +88,4 @@
         <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Your Website 2023</p></div>
     </footer>
 </body>
-
 </html>
